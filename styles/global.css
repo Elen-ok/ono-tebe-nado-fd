@@ -1,13 +1,15 @@
 *,
 *::before,
-*::after {
-  box-sizing: border-box;
+*::after{
+box-sizing: border-box;
 }
 
 body {
   width: 1100px;
   margin: 0 auto;
-  font-family: Raleway, sans-serif;
+  font-family: Raleway, sans-serif; 
+  font-weight: 400;
+  background-color:#FFFFFF ;
 }
 
 h1,
