@@ -3,7 +3,7 @@ body {
     background-color: #FFFFFF;
     width: 1100px;
     position: relative;
-    right: 5px;
+    right: -5px;
 }
 
 .header {
