@@ -49,7 +49,7 @@ width: 200px;
 
 .cover {
   position: relative;
-  background-image: url(/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   width: 100%;
   max-width: 1100px;
   background-position: right center;
@@ -57,7 +57,7 @@ width: 200px;
   background-size: cover;
   margin: 0 auto;
   margin-top: -140px;
-  height: 757px; 
+  height: 757px;
 }
 
 .cover__title {
@@ -80,7 +80,7 @@ width: 200px;
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.6); 
+  background-color: rgba(0, 0, 0, 0.6);
   z-index: 1;
 }
 
@@ -95,7 +95,6 @@ width: 200px;
 
 .aligned-text_left {
   text-align: left;
-  letter-spacing: 5px;
   line-height: 1.2;
   margin-bottom: 20px;
   padding-top: 10px;
@@ -107,7 +106,6 @@ width: 200px;
   text-align: center;
   line-height: 1.2;
   margin-left: 24px;
-  margin-top: 30px;
   letter-spacing: 30px;
   margin-top: -10px;
 }
@@ -115,7 +113,6 @@ width: 200px;
 .aligned-text_right {
   text-align: right;
   line-height: 1.2;
-  margin-top: 40px;
   letter-spacing: 30px;
   margin-top: 15px;
   left: 30px;
@@ -132,7 +129,7 @@ width: 200px;
   margin-top: -10px;
 }
 
-.cover__text { 
+.cover__text {
   color: #FFF;
   font-size: 22px;
   font-weight: 400;
@@ -142,18 +139,18 @@ width: 200px;
   z-index: 2;
   bottom: 30px;
 }
-.button {    
-  background: none;  
+.button {   
+  background: none;
   position: relative;
   width: 256px;
-  border: 1px solid #fff; 
+  border: 1px solid #fff;
   background-color: transparent;
   font-family: Raleway;
   z-index: 2;
-  color: #fff; 
-  cursor: pointer; 
-  text-align: center; 
-  line-height: 51px; 
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  line-height: 51px;
   
   font-size: 22px;
 }
@@ -196,7 +193,7 @@ box-sizing: border-box;
 }
 
 .card_type_film {
-  background-image: url(/images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
   height: 596px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -204,15 +201,15 @@ box-sizing: border-box;
   text-decoration: none;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end; 
-  padding: 20px; 
-  box-sizing: border-box; 
+  justify-content: flex-end;
+  padding: 20px;
+  box-sizing: border-box;
   position: relative;
   bottom: 6px; 
 }
 
 .card_type_book {
-  background-image: url(/images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
   width: 100%;
   height: 596px;
   background-repeat: no-repeat;
@@ -221,16 +218,16 @@ box-sizing: border-box;
   background-position: center;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end; 
-  padding: 20px; 
-  box-sizing: border-box; 
+  justify-content: flex-end;
+  padding: 20px;
+  box-sizing: border-box;
   position: relative;
   right: 7px;
   bottom: 5px;
 }
 
 .card_type_picture {
-  background-image: url(/images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
   width: 100%;
   height: 596px;
   background-repeat: no-repeat;
@@ -239,10 +236,10 @@ box-sizing: border-box;
   text-decoration: none;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end; 
-  padding: 15px; 
-  box-sizing: border-box; 
-  position: relative; 
+  justify-content: flex-end;
+  padding: 15px;
+  box-sizing: border-box;
+  position: relative;
   right: 8px;
   bottom: 5px;
 }
@@ -257,12 +254,11 @@ box-sizing: border-box;
 .lots__card_film {
   display: block;
   color: #FFF;
-  position: relative;
   z-index: 2;
   filter: brightness(1);
   isolation: isolate;
   font-family: Raleway;
-  font-size: 22px; 
+  font-size: 22px;
   text-transform: uppercase;
   font-weight: 700;
   text-decoration: underline solid;
@@ -281,7 +277,7 @@ box-sizing: border-box;
   filter: brightness(1);
   isolation: isolate;
   font-family: Raleway;
-  font-size: 22px;  
+  font-size: 22px; 
   text-transform: uppercase;
     font-weight: 700;
   text-decoration: underline solid;
@@ -299,12 +295,11 @@ height: 110px;
   filter: brightness(1);
   isolation: isolate;
   font-family: Raleway;
-  font-weight: bold;
   font-size: 22px;
   text-transform: uppercase;
-    font-weight: 700;
+  font-weight: 700;
   text-decoration: underline solid;
-    top: 48px;
+  top: 48px;
   left: 40px;
   position: absolute;
   width: 254px;
@@ -316,17 +311,17 @@ height: 110px;
   position: absolute;
   z-index: 2;
   filter: brightness(1);
-  isolation: isolate; 
+  isolation: isolate;
   text-transform: none;
   top: 404px;
   left: 40px;
   width: 254px;
   height: 144px;
-   font-family: Raleway, sans-serif; 
-  font-weight: 400; 
-  font-style: normal; 
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 20px;
-  line-height: 120%; 
+  line-height: 120%;
   letter-spacing: 0;
 }
 
@@ -356,7 +351,7 @@ height: 110px;
   position: absolute;
   z-index: 2;
   filter: brightness(1);
-  isolation: isolate; 
+  isolation: isolate;
   text-transform: none;
   top: 284px;
   left: 45px;
@@ -437,14 +432,14 @@ height: 110px;
 
 .about__text {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   gap: 25px;
   font-size: 20px;
-margin-top: 25px;
-text-transform: none;
-font-style: normal;
-line-height: 24px;
-width:688px
+  margin-top: 25px;
+  text-transform: none;
+  font-style: normal;
+  line-height: 24px;
+  width:688px
 }
 
 .footer {

@@ -1,1 +1,1 @@
-https://github.com/Elena-px/ono-tebe-nado-fd
+https://github.com/Elena-px/ono-tebe-nado
