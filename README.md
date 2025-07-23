@@ -1,1 +1,1 @@
-https://github.com/Elen-ok/first-project/new/main?filename=README.md
+https://github.com/Elen-ok/ono-tebe-nado/new/main?filename=README.md
