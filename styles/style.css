@@ -66,6 +66,7 @@ width: 200px;
   isolation: isolate;
   margin-left: 5px;
   margin-top: -10px;
+
 }
 
 .overlay {
@@ -128,7 +129,7 @@ width: 200px;
   font-size: 22px;
   font-weight: 400;
   line-height: 28px;
-  word-spacing: 20px;
+  word-spacing: 18px;
   text-transform: uppercase;
   z-index: 2;
   bottom: 30px;
@@ -153,6 +154,7 @@ width: 200px;
   margin-top: 210px;
     left: 24px;
     height: 723px;
+    top: 1230px;
    
 }
 
@@ -434,7 +436,7 @@ margin-top: -30px;
   flex-direction: column;
   gap: 25px;
   font-size: 20px;
-  margin-top: 25px;
+  margin-top: 20px;
   text-transform: none;
   font-style: normal;
   line-height: 24px;
@@ -442,25 +444,26 @@ margin-top: -30px;
 }
 
 .footer {
-    height: 180px;
-    width: 1100px;
+    position: absolute;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-  margin-top: 810px;
-  top: 2848px;
+  margin-top: 800px;
+  width: 1100px;
+  height: 180px;
+  
 }
 
 .footer__address {
 list-style: none;
-display: flex;
-flex-direction: column;
+display: block;
 justify-self: center;
 font-style: normal;
 font-size: 18px;
 width: 265px;
 height: 98px;
-margin-top: 40px;
+margin-top: 80px;
+
 }
 
 .footer__menu {
@@ -472,7 +475,7 @@ height: 64px;
 justify-self: center;
 align-items: center;
 font-size: 18px;
-margin-left: -10px;
+
 }
 
 .footer__social-list {
@@ -484,7 +487,7 @@ margin-left: -10px;
   list-style: none;
   justify-self: end;
   margin-right: 50px;
-  margin-bottom: 25px;
+
 }
 
 .footer__social-list-item {
