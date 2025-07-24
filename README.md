@@ -1,1 +1,1 @@
-https://github.com/Elen-ok/ono-tebe-nado/new/main?filename=README.md
+https://github.com/Elen-ok/ono-tebe-nado-fd/new/main?filename=README.md
