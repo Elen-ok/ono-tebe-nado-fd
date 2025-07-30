@@ -1,7 +1,7 @@
 
 body {
     background-color: #FFFFFF;
-    position: relative; 
+    position: relative;
 }
 
 .header {
@@ -203,7 +203,7 @@ body {
 .lots__card-text {
   color: #FFF;
   display: flex;
-  flex-direction: row;   
+  flex-direction: row;  
   align-self: center;
   position: relative;
   z-index: 2;
@@ -218,6 +218,7 @@ body {
   line-height: 120%;
   letter-spacing: 0;
   margin: 10px 0;
+  bottom: 20px;
 }
 
 .lots__card_title_film {
@@ -226,10 +227,6 @@ body {
 
 .lots__card_title_picture {
   bottom: 100px;
-}
-
-.lots__card-text {
-  bottom: 20px;
 }
 
 .lots__card-text_film {
@@ -318,7 +315,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 810px;
     width: 100%;
     box-sizing: border-box;
     padding: 50px;
@@ -327,14 +323,14 @@ body {
 
 .footer__menu {
  display: flex;
-flex-direction: column;
-list-style: none;
-width: 164px;
-justify-self: center;
-align-items: center;
-font-size: 18px;
-margin-bottom: 30px;
-margin-right: 25px;
+ flex-direction: column;
+ list-style: none;
+ width: 164px;
+ justify-self: center;
+ align-items: center;
+ font-size: 18px;
+ margin-bottom: 30px;
+ margin-right: 25px;
 }
 
 .footer__social-list {
