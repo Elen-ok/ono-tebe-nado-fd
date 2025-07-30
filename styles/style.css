@@ -203,7 +203,7 @@ body {
 .lots__card-text {
   color: #FFF;
   display: flex;
-  flex-direction: row;  
+  flex-direction: row;
   align-self: center;
   position: relative;
   z-index: 2;
@@ -235,12 +235,12 @@ body {
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  bottom: 6px; 
+  bottom: 6px;
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  right: 7px; 
+  right: 7px;
 }
 
 .card_type_picture {
