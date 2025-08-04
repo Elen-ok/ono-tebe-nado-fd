@@ -17,17 +17,17 @@ body {
   gap: 33px;
   font-size: 18px;
 }
+
 .header__menu-item {
   display: flex;
   gap: 33px;
   font-size: 18px;
 }
+
 .header__menu-item_active {
-  display: flex;
-  gap: 33px;
-  font-size: 18px;
   list-style: none;
 }
+
 .address {
   list-style: none;
   max-width: 810px;
@@ -108,7 +108,7 @@ body {
 .aligned-text_right {
   text-align: right;
   margin-top: 15px;
-  left: 30px;
+  margin-right: -30px;
 }
 
 .cover__description {
@@ -261,10 +261,12 @@ body {
   margin-left: 40px;
   margin-top: 30px;
 }
+
 .about {
   align-items: center;
   margin-top: 160px;
 }
+
 .about__column {
   display: grid;
   grid-template-columns: 334px 1fr auto;
@@ -315,6 +317,7 @@ body {
   line-height: 24px;
   margin-top: 5px;
 }
+
 .footer {
   display: grid;
   grid-template-columns: auto 1fr auto;
